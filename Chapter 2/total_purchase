@@ -1,0 +1,21 @@
+def main():
+    # Get the price of five items
+    item_1 = int(input("Enter the first item\'s price: "))
+    item_2 = int(input("Enter the second item\'s price: "))
+    item_3 = int(input("Enter the third item\'s price: "))
+    item_4 = int(input("Enter the fourth item\'s price: "))
+    item_5 = int(input("Enter the fifth item\'s price: "))
+
+    # Calculate subtotal
+    subtotal = item_1 + item_2 + item_3 + item_4 + item_5
+
+    # sales tax is 6 percent
+    sales_tax = 0.06
+
+    # amount of sales tax
+    a_s = subtotal * sales_tax
+    
+    # Display subtotal and amount of sales tax
+    print ("Subtotal is ", subtotal, \
+        "and the sales tax is ", a_s)
+main()

@@ -1,0 +1,12 @@
+def main():
+    # Get the user's name
+    name = input("Enter your name: ")
+    # Get the user's address
+    address = input("Enter your address with city, state, and ZIP: ")
+    # Get the user's phone number
+    phone_number = input("Enter your phone number: ")
+    # Get the user's college major
+    college_major = input("Enter your college major: ")
+
+    print(name, address, phone_number, college_major)
+main()
